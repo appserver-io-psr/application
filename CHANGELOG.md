@@ -1,3 +1,13 @@
+# Version 0.4.0
+
+## Bugfixes
+
+* None
+
+## Features
+
+* Add FilesystemAwareInterface and DirectoryAwareInterface interfaces
+
 # Version 0.3.5
 
 ## Bugfixes
