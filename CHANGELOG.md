@@ -6,6 +6,17 @@
 
 ## Features
 
+* Unified the interface naming conventions
+* Moved to new documentation schema
+
+# Version 0.4.0
+
+## Bugfixes
+
+* None
+
+## Features
+
 * Add FilesystemAwareInterface and DirectoryAwareInterface interfaces
 
 # Version 0.3.5
