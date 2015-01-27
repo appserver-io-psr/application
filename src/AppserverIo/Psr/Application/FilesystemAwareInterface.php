@@ -11,14 +11,11 @@
  *
  * PHP version 5
  *
- * @category   Appserver
- * @package    Psr
- * @subpackage Application
- * @author     Tim Wagner <tw@appserver.io>
- * @copyright  2014 TechDivision GmbH <info@appserver.io>
- * @license    http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
- * @link       https://github.com/appserver-io-psr/application
- * @link       http://www.appserver.io
+ * @author    Tim Wagner <tw@appserver.io>
+ * @copyright 2015 TechDivision GmbH <info@appserver.io>
+ * @license   http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
+ * @link      https://github.com/appserver-io-psr/application
+ * @link      http://www.appserver.io
  */
 
 namespace AppserverIo\Psr\Application;
@@ -26,14 +23,11 @@ namespace AppserverIo\Psr\Application;
 /**
  * Interface for applications that are aware of user, group and umask.
  *
- * @category   Appserver
- * @package    Psr
- * @subpackage Application
- * @author     Tim Wagner <tw@appserver.io>
- * @copyright  2014 TechDivision GmbH <info@appserver.io>
- * @license    http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
- * @link       https://github.com/appserver-io-psr/application
- * @link       http://www.appserver.io
+ * @author    Tim Wagner <tw@appserver.io>
+ * @copyright 2015 TechDivision GmbH <info@appserver.io>
+ * @license   http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
+ * @link      https://github.com/appserver-io-psr/application
+ * @link      http://www.appserver.io
  */
 interface FilesystemAwareInterface
 {
@@ -46,9 +40,9 @@ interface FilesystemAwareInterface
     public function getUser();
 
     /**
-     * Injects the groupname the application should be executed with.
+     * Injects the group name the application should be executed with.
      *
-     * @return string The groupname
+     * @return string The group name
      */
     public function getGroup();
 
