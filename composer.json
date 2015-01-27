@@ -12,7 +12,7 @@
 	],
 	"require" : {
 		"php" : ">=5.4.0",
-		"appserver-io-psr/naming" : "0.1.*"
+		"appserver-io-psr/naming" : "0.2.*"
 	},
 	"require-dev" : {
 		"appserver-io/build" : "0.2.*"
