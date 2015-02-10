@@ -175,14 +175,4 @@ class ApplicationWrapper
     {
         $this->getApplication()->getUmask();
     }
-
-    /**
-     * Returns the applications naming directory.
-     *
-     * @return \AppserverIo\Psr\Naming\NamingDirectoryInterface The applications naming directory interface
-     */
-    public function getNamingDirectory()
-    {
-        return $this->getApplication()->getNamingDirectory();
-    }
 }

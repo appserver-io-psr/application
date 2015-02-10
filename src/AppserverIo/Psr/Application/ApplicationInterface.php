@@ -20,8 +20,6 @@
 
 namespace AppserverIo\Psr\Application;
 
-use AppserverIo\Psr\Naming\NamingDirectoryInterface;
-
 /**
  * Interface for thread-safe applications.
  *
@@ -31,7 +29,7 @@ use AppserverIo\Psr\Naming\NamingDirectoryInterface;
  * @link      https://github.com/appserver-io-psr/application
  * @link      http://www.appserver.io
  */
-interface ApplicationInterface extends NamingDirectoryInterface
+interface ApplicationInterface
 {
 
     /**
@@ -73,11 +71,4 @@ interface ApplicationInterface extends NamingDirectoryInterface
      * @return string The app base directory
      */
     public function getAppBase();
-
-    /**
-     * Returns the applications naming directory.
-     *
-     * @return \AppserverIo\Psr\Naming\NamingDirectoryInterface The applications naming directory interface
-     */
-    public function getNamingDirectory();
 }
