@@ -1,3 +1,13 @@
+# Version 0.6.0
+
+## Bugfixes
+
+* None
+
+## Features
+
+* Remove ApplicationInterface::getNamingDirectory() method and dependency to appserver-io-psr/naming library
+
 # Version 0.5.0
 
 ## Bugfixes
