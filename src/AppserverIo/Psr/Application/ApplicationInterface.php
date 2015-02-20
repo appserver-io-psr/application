@@ -49,7 +49,7 @@ interface ApplicationInterface
     public function getName();
 
     /**
-     * Return's the applications servers base directory, which is
+     * Returns the applications servers base directory, which is
      * /opt/appserver by default.
      *
      * @param string $directoryToAppend Directory to append before returning the base directory

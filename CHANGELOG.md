@@ -1,3 +1,13 @@
+# Version 1.1.0
+
+## Bugfixes
+
+* None
+
+## Features
+
+* Add ClassLoaderInterface, ClassLoaderConfigurationInterface + ManagerConfiguration interface
+
 # Version 1.0.0
 
 ## Bugfixes
