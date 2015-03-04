@@ -1,7 +1,7 @@
 <?php
 
 /**
- * AppserverIo\Psr\Application\ManagerConfigurationInterface
+ * \AppserverIo\Psr\Application\ManagerConfigurationInterface
  *
  * NOTICE OF LICENSE
  *

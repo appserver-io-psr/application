@@ -1,7 +1,7 @@
 <?php
 
 /**
- * AppserverIo\Psr\Application\DirectoryAwareInterface
+ * \AppserverIo\Psr\Application\DirectoryAwareInterface
  *
  * NOTICE OF LICENSE
  *

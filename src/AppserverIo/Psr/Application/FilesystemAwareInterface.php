@@ -1,7 +1,7 @@
 <?php
 
 /**
- * AppserverIo\Psr\Application\FilesystemAwareInterface
+ * \AppserverIo\Psr\Application\FilesystemAwareInterface
  *
  * NOTICE OF LICENSE
  *
