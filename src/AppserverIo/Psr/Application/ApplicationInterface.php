@@ -1,7 +1,7 @@
 <?php
 
 /**
- * AppserverIo\Psr\Application\ApplicationInterface
+ * \AppserverIo\Psr\Application\ApplicationInterface
  *
  * NOTICE OF LICENSE
  *
@@ -28,6 +28,19 @@ namespace AppserverIo\Psr\Application;
  * @license   http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
  * @link      https://github.com/appserver-io-psr/application
  * @link      http://www.appserver.io
+ *
+ * The comments below hint at methods present in widely used explicit implementations of this interface and MAY
+ * be introduced in the next MAJOR release of this PSR
+ *
+ * @method \AppserverIo\Appserver\Core\Interfaces\ClassLoaderInterface getClassLoader() getClassLoader(string $identifier) Return the requested class loader instance
+ * @method \AppserverIo\Storage\GenericStackable getClassLoaders() getClassLoaders() Return the class loaders
+ * @method \AppserverIo\Storage\GenericStackable getManagers() getManagers() Returns the manager instances
+ * @method \AppserverIo\Psr\Application\ManagerInterface getManager() getManager(string $identifier) Return the requested manager instance
+ * @method null addClassLoader() addClassLoader(\AppserverIo\Appserver\Core\Interfaces\ClassLoaderInterface $classLoader, \AppserverIo\Appserver\Core\Api\Node\ClassLoaderNodeInterface $configuration) Injects an additional class loader
+ * @method null addManager() addManager(\AppserverIo\Psr\Application\ManagerInterface $manager, \AppserverIo\Appserver\Core\Api\Node\ManagerNodeInterface $configuration) Injects manager instance and the configuration
+ * @method object newService() newService(string $className) Creates a new service instance
+ * @method \AppserverIo\Appserver\Application\Interfaces\ContextInterface getInitialContext() getInitialContext() Returns the initial context instance
+ * @method null registerClassLoaders() registerClassLoaders() Registers all class loaders injected to the applications in the opposite order as they have been injected
  */
 interface ApplicationInterface
 {

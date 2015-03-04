@@ -1,7 +1,7 @@
 <?php
 
 /**
- * AppserverIo\Psr\Application\ApplicationWrapperTest
+ * \AppserverIo\Psr\Application\ApplicationWrapperTest
  *
  * NOTICE OF LICENSE
  *

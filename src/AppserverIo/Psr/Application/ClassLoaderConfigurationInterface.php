@@ -1,7 +1,7 @@
 <?php
 
 /**
- * AppserverIo\Psr\Application\ClassLoaderConfigurationInterface
+ * \AppserverIo\Psr\Application\ClassLoaderConfigurationInterface
  *
  * NOTICE OF LICENSE
  *
