@@ -36,11 +36,15 @@ namespace AppserverIo\Psr\Application;
  * @method \AppserverIo\Storage\GenericStackable getClassLoaders() getClassLoaders() Return the class loaders
  * @method \AppserverIo\Storage\GenericStackable getManagers() getManagers() Returns the manager instances
  * @method \AppserverIo\Psr\Application\ManagerInterface getManager() getManager(string $identifier) Return the requested manager instance
+ * @method \AppserverIo\Storage\GenericStackable getProvisioners() getProvisioners() Returns the provisioner instances
+ * @method \AppserverIo\Psr\Application\ProvisionerInterface getProvisioner() getProvisioner(string $identifier) Return the requested provisioner instance
  * @method null addClassLoader() addClassLoader(\AppserverIo\Appserver\Core\Interfaces\ClassLoaderInterface $classLoader, \AppserverIo\Appserver\Core\Api\Node\ClassLoaderNodeInterface $configuration) Injects an additional class loader
  * @method null addManager() addManager(\AppserverIo\Psr\Application\ManagerInterface $manager, \AppserverIo\Appserver\Core\Api\Node\ManagerNodeInterface $configuration) Injects manager instance and the configuration
+ * @method null addProvisioner() addProvisioner(\AppserverIo\Psr\Application\ProvisionerInterface $provisioner, \AppserverIo\Appserver\Core\Api\Node\ProvisionerNodeInterface $configuration) Injects provisioner instance and the configuration
  * @method object newService() newService(string $className) Creates a new service instance
  * @method \AppserverIo\Appserver\Application\Interfaces\ContextInterface getInitialContext() getInitialContext() Returns the initial context instance
  * @method null registerClassLoaders() registerClassLoaders() Registers all class loaders injected to the applications in the opposite order as they have been injected
+ * @method null provision() provision() Provisions the initialized application
  */
 interface ApplicationInterface
 {

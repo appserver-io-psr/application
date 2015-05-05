@@ -1,3 +1,13 @@
+# Version 1.3.0
+
+## Bugfixes
+
+* None
+
+## Features
+
+* Added new ProvisionerInterface
+
 # Version 1.2.0
 
 ## Bugfixes
