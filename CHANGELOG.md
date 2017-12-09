@@ -1,3 +1,13 @@
+# Version 1.4.0
+
+## Bugfixes
+
+* None
+
+## Features
+
+* Add constant ApplicationInterface::IDENTIFIER
+
 # Version 1.3.0
 
 ## Bugfixes

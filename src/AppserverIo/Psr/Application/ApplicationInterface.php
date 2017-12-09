@@ -50,6 +50,13 @@ interface ApplicationInterface
 {
 
     /**
+     * The unique identifier to be registered in the application context.
+     *
+     * @var string
+     */
+    const IDENTIFIER = 'ApplicationInterface';
+
+    /**
      * Has been automatically invoked by the container after the application
      * instance has been created.
      *
