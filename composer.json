@@ -1,36 +1,37 @@
 {
-	"name" : "appserver-io-psr/application",
-	"description" : "PSR, for a threaded application implementation",
-	"homepage" : "https://github.com/appserver-io-psr/application",
-	"license" : "OSL-3.0",
-	"authors" : [{
-			"name" : "Tim Wagner",
-			"email" : "tw@appserver.io",
-			"homepage" : "https://github.com/wagnert",
-			"role" : "Developer"
-		}
-	],
-	"require" : {
-		"php" : ">=5.4.0",
-		"appserver-io-psr/context" : "~1.0"
-	},
-	"require-dev" : {
-		"appserver-io/build" : "~1.0"
-	},
-	"autoload" : {
-		"psr-0" : {
-			"AppserverIo\\Psr\\Application" : [
-				"src/",
-				"tests/"
-			]
-		}
-	},
-	"support" : {
-		"email" : "tw@appserver.io",
-		"issues" : "https://github.com/appserver-io-psr/application/issues",
-		"source" : "https://github.com/appserver-io-psr/application"
-	},
-	"keywords" : [
-		"persistence container protocol doctrine"
-	]
+    "name": "appserver-io-psr/application",
+    "description": "PSR, for a threaded application implementation",
+    "homepage": "https://github.com/appserver-io-psr/application",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Tim Wagner",
+            "email": "tw@appserver.io",
+            "homepage": "https://github.com/wagnert",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "appserver-io-psr/context": "~1.0"
+    },
+    "require-dev": {
+        "appserver-io/build": "~1.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "AppserverIo\\Psr\\Application": [
+                "src/",
+                "tests/"
+            ]
+        }
+    },
+    "support": {
+        "email": "tw@appserver.io",
+        "issues": "https://github.com/appserver-io-psr/application/issues",
+        "source": "https://github.com/appserver-io-psr/application"
+    },
+    "keywords": [
+        "persistence container protocol doctrine"
+    ]
 }
