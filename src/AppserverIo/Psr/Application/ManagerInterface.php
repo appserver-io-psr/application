@@ -30,8 +30,6 @@ use AppserverIo\Psr\Context\ContextInterface;
  * @license   http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
  * @link      https://github.com/appserver-io-psr/application
  * @link      http://www.appserver.io
- *
- * @method null stop() stop() Stops the manager instance
  */
 interface ManagerInterface extends ContextInterface
 {
@@ -42,6 +40,22 @@ interface ManagerInterface extends ContextInterface
      * @return string The unique identifier
      */
     public function getIdentifier();
+
+    /**
+     * Stops the manager instance.
+     *
+     * @return void
+     */
+    public function stop();
+
+    /**
+     * Lifecycle callback that'll be invoked after the application has been started.
+     *
+     * @param \AppserverIo\Psr\Application\ApplicationInterface $application The application instance
+     *
+     * @return void
+     */
+    public function postStartup(ApplicationInterface $application);
 
     /**
      * Has been automatically invoked by the container after the application
